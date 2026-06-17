@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Community Event Portal</title>
+
+    <!-- Internal CSS -->
+    <style>
+        body{
+            background-color:#f5f5f5;
+        }
+    </style>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+          rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <h1 id="mainHeader" style="color:red;">
+        Local Community Event Portal
+    </h1>
+
+    <!-- Navigation -->
+    <nav>
+        <ul class="navMenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Welcome Section -->
+    <section>
+        <h2 class="sectionHeader">Welcome</h2>
+
+        <div class="eventCard">
+            <h3>Community Activities</h3>
+            <p>
+                Welcome to the Local Community Event Portal.
+                Explore events, activities, and services happening
+                in your city.
+            </p>
+        </div>
+    </section>
+
+    <!-- Event Cards -->
+    <section>
+        <h2 class="sectionHeader">Upcoming Events</h2>
+
+        <div class="eventCard">
+            <h3>Music Festival</h3>
+            <p>
+                Enjoy live music performances and cultural programs.
+            </p>
+        </div>
+
+        <div class="eventCard">
+            <h3>Sports Meet</h3>
+            <p>
+                Participate in sports and fitness activities.
+            </p>
+        </div>
+
+        <div class="eventCard">
+            <h3>Food Festival</h3>
+            <p>
+                Taste delicious foods from local vendors.
+            </p>
+        </div>
+    </section>
+
+    <!-- Table -->
+    <section>
+        <h2 class="sectionHeader">Event Schedule</h2>
+
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Event Name</th>
+                <th>Date</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>Music Festival</td>
+                <td>10 June</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Sports Meet</td>
+                <td>15 June</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Food Festival</td>
+                <td>20 June</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Book Fair</td>
+                <td>25 June</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2 class="sectionHeader">Registration Form</h2>
+
+        <form>
+            <label>Name</label>
+            <input type="text" placeholder="Enter your name">
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email">
+
+            <label>Message</label>
+            <textarea placeholder="Enter message"></textarea>
+
+            <button class="cta-button">
+                Register
+            </button>
+        </form>
+    </section>
+
+    <!-- Multi Column Section -->
+    <section>
+        <h2 class="sectionHeader">Community Bulletin</h2>
+
+        <div class="news">
+            The city council is organizing multiple community
+            events this month including cultural programs,
+            educational workshops, health awareness campaigns,
+            sports competitions, and food festivals. Citizens
+            are encouraged to participate and strengthen
+            community relationships. This portal provides easy
+            registration and access to event information for
+            everyone in the city.
+        </div>
+    </section>
+
+    <!-- Hidden and None -->
+    <div class="hiddenBox">
+        This box uses visibility:hidden.
+    </div>
+
+    <div class="noneBox">
+        This box uses display:none.
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            © 2026 Local Community Event Portal
+        </p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Community Event Portal</title>
+</head>
+<body>
+
+    <h1>Event Registration Form</h1>
+
+    <form id="registrationForm">
+
+        <label>Name:</label><br>
+        <input type="text" name="name">
+        <span id="nameError" style="color:red;"></span>
+
+        <br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email">
+        <span id="emailError" style="color:red;"></span>
+
+        <br><br>
+
+        <label>Select Event:</label><br>
+        <select name="event">
+            <option value="">--Select Event--</option>
+            <option value="Music Festival">Music Festival</option>
+            <option value="Tree Plantation">Tree Plantation</option>
+            <option value="Coding Workshop">Coding Workshop</option>
+        </select>
+        <span id="eventError" style="color:red;"></span>
+
+        <br><br>
+
+        <button type="submit">Register</button>
+
+    </form>
+
+    <h3 id="message"></h3>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
